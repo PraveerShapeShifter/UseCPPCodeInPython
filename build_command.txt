@@ -1,0 +1,10 @@
+Build C++ Extension Command:
+==============================
+python Setup.py build_ext --inplace
+
+# To see the list of functions that have been exported.
+
+python -c "from shapeshifter import fabric, maths; help(fabric); help(maths)"
+
+# build the package 
+python -m build
